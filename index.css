@@ -183,7 +183,8 @@ figure{
 }
 
 .poem-container:hover .poem-image,
-.poem-container:active .poem-image{
+.poem-container:active .poem-image,
+.poem-container:focus .poem-image{
 	transform: rotateX(0deg);
 }
 
@@ -220,7 +221,8 @@ img:hover{
 }
 
 .poem-container:hover .poem-number a,
-.poem-container:active .poem-number a{
+.poem-container:active .poem-number a,
+.poem-container:focus .poem-number a{
 	background-color: black;
 	color: lightgrey;
 }
@@ -416,7 +418,8 @@ img:hover{
 }
 
 .poem-container:nth-of-type(33) .individual:hover img,
-.poem-container:nth-of-type(33) .individual:active img{
+.poem-container:nth-of-type(33) .individual:active img,
+.poem-container:nth-of-type(33) .individual:focus img{
 	opacity: 1;
 }
 
@@ -438,7 +441,8 @@ img:hover{
 }
 
 .poem-container:nth-of-type(33) .individual:hover a,
-.poem-container:nth-of-type(33) .individual:active a{
+.poem-container:nth-of-type(33) .individual:active a,
+.poem-container:nth-of-type(33) .individual:focus a{
 	opacity: 0;
 }
 
