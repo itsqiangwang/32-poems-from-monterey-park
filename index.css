@@ -437,7 +437,7 @@ img:hover{
 	font-size: 5vh;
 	font-family: sans-serif;
 	opacity: 1;
-	background-color: rgba(211,211,211,0.75);
+	background-color: rgba(211,211,211,0.25);
 }
 
 .poem-container:nth-of-type(33) .individual:hover a,
